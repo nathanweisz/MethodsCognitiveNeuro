@@ -1,0 +1,21 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# Exclude large binary data files
+*.mat
+*.fif
+*.dat
+
+# Optional: exclude common large files
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.bin
+
+# Optional: macOS metadata
+.DS_Store
+
+# Optional: ignore everything in a "data" folder
+data/
